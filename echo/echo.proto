@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 package echo;
+option go_package = "github.com/jlyon1/echo" 
 
 message EchoRequest {
     string value = 1;
